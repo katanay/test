@@ -1,10 +1,5 @@
 /*GENERAL*/
-body {
-	font-family: 'Montserrat', sans-serif;
-	background-color: #e6e6e6;
-	position: relative;
-	color: black;
-}
+body {font-family: 'Montserrat', sans-serif;background-color: #e6e6e6;position: relative;color: black;}
 a {
 	color: #068488;
 }
