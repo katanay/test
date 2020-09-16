@@ -12,6 +12,8 @@ a:hover, a:focus {
 	color: #00C6CF;
 	text-decoration: none;
 }
+
+
 button {
 	color: #fff;
     background-color: #068488;
@@ -21,6 +23,8 @@ button:hover, button:focus {
     background-color: #324B4C;
     border-color: #324B4C;
 }
+
+
 .season-add .inner, 
 .season-delete .inner, 
 .match-import .inner, 
