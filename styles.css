@@ -1,0 +1,256 @@
+/*GENERAL*/
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #e6e6e6;
+	position: relative;
+	color: black;
+}
+a {
+	color: #068488;
+}
+a:hover, a:focus {
+	color: #00C6CF;
+	text-decoration: none;
+}
+
+
+button {
+	color: #fff;
+    background-color: #068488;
+    border-color: #068488;
+}
+button:hover, button:focus {
+    background-color: #324B4C;
+    border-color: #324B4C;
+}
+
+
+.season-add .inner, 
+.season-delete .inner, 
+.match-import .inner, 
+.season-calc .inner, 
+.teams-calc .inner,
+.season-calc-delete .inner,
+.rating-calc .inner,
+.rating-delete .inner,
+.stat-block .inner {
+	background: #ffffff;
+	padding: 15px;
+}
+.season-add .inner button, 
+.season-delete .inner button, 
+.match-import .inner button, 
+.season-calc .inner button, 
+.teams-calc .inner button,
+.season-calc-delete .inner button,
+.rating-calc .inner button,
+.rating-delete .inner button {
+	color: #fff;
+    background-color: #068488;
+    border-color: #068488;
+}
+.season-add .inner button:hover, .season-delete .inner button:hover, 
+.season-add .inner button:focus, .season-delete .inner button:focus, 
+.match-import .inner button:hover, .match-import .inner button:focus
+.season-calc .inner button:hover, .season-calc .inner button:focus,
+.teams-calc .inner button:hover, .teams-calc .inner button:focus
+.season-calc-delete .inner button:hover, .season-calc-delete .inner button:focus,
+.rating-calc .inner button:hover, .rating-calc .inner button:focus,
+.rating-delete .inner button:hover, .rating-delete .inner button:focus {
+    background-color: #324B4C;
+    border-color: #324B4C;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #324B4C;
+    border-color: #324B4C;
+}
+.aliases-warning .inner {
+	background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 15px;
+}
+.aliases-warning .inner p {
+	margin-bottom: 5px;
+}
+.team-logo {
+    max-width: 320px;
+}
+.team-logo img {
+    max-width: 100%;
+}
+.rating-team-logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+table.team-rating td.team-name {
+	padding: 15px 5px 15px 50px;
+	position: relative;
+}
+
+table.team-rating .rating-team-logo .team-logo {
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+thead {
+    background-color: #068488;
+    color: #ffffff;
+}
+p.stat-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+p.stat-value {
+    text-align: center;
+    font-size: 3rem;
+}
+.row {
+    margin-bottom: 30px;
+}
+
+
+/*MAIN PAGE*/
+.main-page-top-img {
+    width: 100%;
+    height: 255px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.main-page-top-img img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+p.top-three-teams-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333333;
+}
+p.main-top-points {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333333;
+}
+.main-page-top-row {
+    padding-top: 30px;
+}
+.main-page-seasons-list {
+    list-style: none;
+    padding-left: 0;
+}
+.main-page-seasons-list li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+p.rand-team-title {
+    font-size: 2rem;
+}
+p.rand-team-position {
+    font-size: 1.2rem;
+}
+.rand-team-img {
+    position: relative;
+    height: 380px;
+}
+.rand-team-img img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.head-to-head-table td, .head-to-head-table th {
+    width: 33%;
+    text-align: center;
+}
+.head-to-head-table thead {
+    background-color: transparent;
+    color: #000;
+}
+.hth-results-page h1 {
+    text-align: center;
+}
+.head-to-head-subtitle {
+    text-align: center;
+}
+.hth-results-page p.match-title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.hth-results-page p.match-date {
+    text-align: center;
+    margin-bottom: 0;
+}
+.hth-results-page p.match-league {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.hth-results-page p.match-underline {
+    border-bottom: 1px solid black;
+}
+.hth-results-page .form-submit {
+    padding-top: 15px;
+    text-align: right;
+}
+.hth-results-page .form-submit button {
+    color: #fff;
+    background-color: #068488;
+    border-color: #068488;
+}
+.hth-results-page .form-submit button:hover, .hth-results-page .form-submit button:hover {
+    background-color: #324B4C;
+    border-color: #324B4C;
+}
+ul.teams-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/*ADMIN PAGES*/
+.team-editing-logo {
+    max-width: 100%;
+}
+p.team-edit-label-name {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.team-edit-form label {
+    margin-top: 15px;
+}
+.team-edit-form .submit-block {
+    padding-top: 20px;
+}
+.team-edit-form .submit-block button {
+    color: #fff;
+    background-color: #068488;
+    border-color: #068488;
+}
+.team-edit-form .submit-block button:hover, .team-edit-form .submit-block button:hover {
+    background-color: #324B4C;
+    border-color: #324B4C;
+}
+.teams-calc {
+    margin-top: 30px;
+}
+.admin-sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+.admin-sidebar ul li {
+    padding: 5px 0;
+    font-size: 20px;
+}
+.admin-sidebar p {
+    font-size: 1.5rem;
+}
